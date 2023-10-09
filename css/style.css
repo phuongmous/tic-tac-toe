@@ -41,6 +41,9 @@ header {
 #board > div {
     border-radius: 10%;
     border: 0.6vmin solid rgb(3, 126, 112);
+    display: grid;
+    font-size: 7vmin;
+    text-align: center;
 }
 
 button {
