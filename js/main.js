@@ -1,8 +1,8 @@
 /*----- constants -----*/
 const colors = {
     null: "white",
-    "1": "orange",
-    "-1": "green"
+    "1": "rgb(246, 207, 147)",
+    "-1": "rgb(3, 126, 112)"
 }
 
 const winningCombos = [
@@ -34,7 +34,7 @@ replayButton.addEventListener("click", initializeGame);
 initializeGame ();
  // Initialize the game
 function initializeGame () {
-    board = [null, null, null, null, null, null, null, null, null]
+    board = [null, null, null, null, null, null, null, null, null];
     turn = 1;
     winner = null;
     render ();
